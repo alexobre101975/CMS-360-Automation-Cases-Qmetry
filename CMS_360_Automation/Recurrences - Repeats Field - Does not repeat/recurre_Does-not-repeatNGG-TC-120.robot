@@ -4,7 +4,7 @@ Documentation       CMS-Engage360 Community Waterford
 Library    SeleniumLibrary
 
 Suite Setup        web setup
-Suite Teardown    Close All Browsers
+#Suite Teardown    Close All Browsers
 
 Resource    Resources/Variables.resource
 Resource    Resources/Keywords.resource
@@ -75,8 +75,8 @@ NGG-TC-120 Automation Recurrences - Repeats Field - Does not repeat
    click element   ${Dinner}
 
 
-# Return Category Breakfast
-   click element    ${Breakfast}
+## Return Category Breakfast
+#   click element    ${Breakfast}
 
 
 # Select and Unselect fill Hide on print
