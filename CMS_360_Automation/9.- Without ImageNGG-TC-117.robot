@@ -10,7 +10,6 @@ Resource    Resource/Variables.resource
 Resource    Resource/Keywords.resource
 
 *** Test Cases ***
-
 NGG-TC-117 General Info - Without Image
     [Tags]   Validation Test   Caso 9
 
