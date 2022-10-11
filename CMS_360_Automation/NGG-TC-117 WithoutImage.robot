@@ -77,15 +77,16 @@ NGG-TC-117 General Info - Without Image
    click element      ${Calendar_Btn}
 
 # Click in current Day
-    Double click element      ${Next_day}
+   execute javascript    ${day_22}
 
 # click Button Save
 # that the message "This meal has been added successfully" appears and the captures of the dinning
+   scroll element into view                   ${Save}
     element should be visible                 ${Save}        Save
     double click element                      ${Save}
 
 # We wait a moment
- # Make the Alert message "This meal has been added succesfully" visible
+#  Make the Alert message "This meal has been added succesfully" visible
     wait until element is visible        ${Message_Accept}
     element should be visible            ${Message_Accept}       This meal has been added succesfully
 

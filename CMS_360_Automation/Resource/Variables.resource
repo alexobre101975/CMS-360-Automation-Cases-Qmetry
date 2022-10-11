@@ -40,9 +40,9 @@ ${"X"Btton}                 id=dining_delete_icon
 ${100Characters}            //p[contains(text(),'The search must contain less than 100 characters')]
 ${100/101}                  //div [@class='MuiGrid-root characterCount MuiGrid-item']
 ${Calendar_Btn}             id=Calendar_Btn_StartDate_add_dining_start_date
-${Next_day}                 id=Calendar_Icon_Adornment_10
+${Next_day}                 id=Calendar_Icon_Adornment_25
 ${Cancel_Btton}             document.getElementsByClassName('MuiGrid-root alingCenter MuiGrid-container MuiGrid-item')[1].click()
-
+${day_22}                   document.getElementsByClassName('MuiTypography-root MuiTypography-body2 MuiTypography-colorInherit')[27].click()
 
 
 

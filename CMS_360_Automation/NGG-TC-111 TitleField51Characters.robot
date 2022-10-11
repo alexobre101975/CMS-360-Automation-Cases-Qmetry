@@ -78,9 +78,6 @@ NGG-TC-111 General Info - Title Field Validation - 51 Characters
 # Lunch
     wait until element is visible          ${Lunch}
     click element                          ${Lunch}
-# Dinner
-    wait until element is visible          ${Dinner}
-    click element                          ${Dinner}
 
  # enter Star Date Calendar
     wait until element is visible           ${Start-Date}
@@ -114,7 +111,7 @@ NGG-TC-111 General Info - Title Field Validation - 51 Characters
    click element      ${Calendar_Btn}
 
 # Click in current Day
-    Double click element      ${Next_day}
+    execute javascript    ${day_22}
 
 
 # click Button Save

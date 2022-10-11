@@ -98,7 +98,7 @@ NGG-TC-110 General Info - Title Field Validation - 26 Characters
    click element      ${Calendar_Btn}
 
 # Click in current Day
-    Double click element      ${Next_day}
+    execute javascript     ${day_22}
 
 
 # click Button Save
@@ -110,10 +110,10 @@ NGG-TC-110 General Info - Title Field Validation - 26 Characters
     element should be visible                 ${Title}     MEAL
     element should be visible                 ${Title}      THE COMMUNITY MEALS ARE BEING LOADED
 
-## We wait a moment
-# # Make the Alert message "This meal has been added succesfully" visible
-#    wait until element is visible        ${Message_Accept}
-#    element should be visible            ${Message_Accept}       This meal has been added succesfully
+# We wait a moment
+ # Make the Alert message "This meal has been added succesfully" visible
+    wait until element is visible        ${Message_Accept}
+    element should be visible            ${Message_Accept}       This meal has been added succesfully
 
 
 

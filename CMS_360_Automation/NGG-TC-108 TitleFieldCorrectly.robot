@@ -82,7 +82,8 @@ NGG-TC-108 General Info - Title Field Validation - Correctly
    click element      ${Calendar_Btn}
 
 # Click in current Day
-    Double click element      ${Next_day}
+    execute javascript     ${day_22}
+
 
 # click Button Save
    element should be visible                 ${Save}        Save

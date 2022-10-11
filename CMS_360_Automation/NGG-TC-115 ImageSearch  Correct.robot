@@ -4,7 +4,7 @@ Documentation       CMS-Engage360 Community Waterford
 Library    SeleniumLibrary
 
 Suite Setup        web setup
-Suite Teardown    Close All Browsers
+#Suite Teardown    Close All Browsers
 
 Resource    Resource/Variables.resource
 Resource    Resource/Keywords.resource

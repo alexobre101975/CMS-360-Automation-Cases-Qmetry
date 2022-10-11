@@ -92,7 +92,7 @@ NGG-TC-112 General Info - Description Field Validation - Correctly
    click element      ${Calendar_Btn}
 
 # Click in current Day
-    Double click element      ${Next_day}
+    execute javascript     ${day_22}
 
 
 # click Button Save
